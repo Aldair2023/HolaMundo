@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package holamundo;
 
-/**
- *
- * @author aldair
- */
+import java.util.Scanner;
+
+
 public class PrimeraClase {
+    public static void main(String[] args) {
+        Scanner lea = new Scanner(System.in);
+        
+        int x,y, suma;
+        System.out.println("ingrese el primer numero");
+        x=Integer.parseInt(lea.next());
+        System.out.println("ingrese el segundo numero");
+        y=Integer.parseInt(lea.next());
+        
+        suma = x+y;
+        System.out.println("la suma es: "+suma);
+        
+        
+        
+        
+    }
     
 }
