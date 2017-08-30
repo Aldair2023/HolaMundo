@@ -18,6 +18,17 @@ public class PrimeraClase {
         System.out.println("la suma es: "+suma);
         
         
+        double n1, n2, n3, prom;
+        System.out.println("ingrese la primera nota: ");
+        n1=Double.parseDouble(lea.next());
+        System.out.println("ingrese la segunda nota: ");
+        n2=Double.parseDouble(lea.next());
+        System.out.println("ingrese la tercera nota: ");
+        n3=Double.parseDouble(lea.next());
+        
+        prom=(n1+n2+n3)/3;
+        
+        System.out.println("el promedio de notas fue de: "+prom);
         
         
     }
